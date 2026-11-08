@@ -18,5 +18,5 @@ jobs:
           java-version: '25'
           distribution: 'temurin'
 
-      - name: Build and Test
+      - name: Build and Compile
         run: mvn clean compile
